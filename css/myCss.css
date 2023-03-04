@@ -1,0 +1,84 @@
+
+.img-thumbnail {
+    border: none!important;
+}
+
+
+.font-weight-bolder {
+    font-weight: 600!important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
+#facilities .fa {
+    font-size: 30px!important;
+    color:#FE79A2!important
+}
+
+
+.banner.container-fluid.mb-5 {
+    background: url(../images/banner1.jpg) no-repeat center;
+    max-width: 100%;
+   
+}
+p {
+    line-height: 1.2rem!important;
+}
+
+a{
+    color: white!important;
+}
+
+
+.btn-primary { 
+    background-color: #FE79A2!important;
+    border: #FE79A2!important;
+}
+
+body {
+    background-color: #26243c;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+    background-color: white!important;
+}
+
+.card {
+    background-color: transparent!important;
+}
+
+#facilities .card {
+    background-color: #26243c;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+
+#search_input {
+    display: none;
+}
+
+.display_search {
+    display: block!important;
+}
+
+.btn-outline-primary {
+    color: white!important;
+    border-color: white!important;
+}
+
+.btn-outline-primary:hover {
+      color: rgb(29, 26, 26)!important;
+    background-color: white!important;
+}
+
+.hide {
+    display: none;
+}
+
+.pink {
+    color: #FE79A2!important;
+}
