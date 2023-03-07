@@ -1,0 +1,13 @@
+/* style cho pagination */
+.pagination {
+    justify-content: center;
+    align-items: center;
+}
+.page-link {
+    background-color: #26243C!important;
+}
+
+.page-item.active .page-link {
+    background-color: #FC78A1!important;
+    border-color: white!important;
+}
