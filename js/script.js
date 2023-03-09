@@ -1,4 +1,6 @@
 let searchBtn = document.getElementById("search");
+let light = document.getElementById("sun");
+let night = document.getElementById("moon");
 
 searchBtn.onclick = () => {
     let element = document.getElementById("search_input");
@@ -6,13 +8,12 @@ searchBtn.onclick = () => {
 }
 
 
-let light = document.getElementById("sun");
-let night = document.getElementById("moon");
 night.click()
 console.log("Light is", light.className);
 light.onclick = () => {
     document.body.style.backgroundColor = "white";
     document.body.style.color = "black";
+    document.getElementById("contact_heading").style.color = "white";
     document.getElementsByName("footer").forEach((item) => {
         item.classList.add("text-dark")
     });

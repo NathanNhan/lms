@@ -1,0 +1,76 @@
+// const headerTemplate = document.createElement('template');
+
+// headerTemplate.innerHTML = `
+//   <head>
+//    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+//         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+//     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+//     <link rel="stylesheet" href="../css/home-page.css">
+     
+//   </head>
+//   <nav class="navbar navbar-expand-sm navbar-light bg-dark fixed-top">
+//     <a class="navbar-brand" href="#">
+//         <img src="./images/YOURS-LOGO.png" class="img-fluid" alt="" srcset="" width="100" height="93">
+//     </a>
+
+//     <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+//         aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+//         <span class="navbar-toggler-icon"></span>
+//     </button>
+
+//     <div class="collapse navbar-collapse" id="collapsibleNavId">
+//         <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
+//             <li class="nav-item active">
+//                 <a class="nav-link text-nowrap text-light" href=".">Trang chủ <span
+//                         class="sr-only">(current)</span></a>
+//             </li>
+
+//             <li class="nav-item">
+//                 <a class="nav-link text-nowrap text-light " href="#">Giới thiệu</a>
+//             </li>
+
+//             <li class="nav-item dropdown">
+//                 <a class="nav-link text-nowrap dropdown-toggle  text-light" href="#" id="dropdownId"
+//                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Khóa học</a>
+//                 <div class="dropdown-menu" aria-labelledby="dropdownId">
+//                     <a class="dropdown-item text-dark" href="./cackhoahoc/">Khóa học miễn phí</a>
+//                     <a class="dropdown-item text-dark" href="#">Khóa học trả phí</a>
+//                 </div>
+//             </li>
+
+//             <li class="nav-item">
+//                 <a class="nav-link text-nowrap  text-light" href="./tintuc/">Tin tức</a>
+//             </li>
+
+//             <li class="nav-item">
+//                 <a class="nav-link text-nowrap  text-light" href="./lienhe/">Liên hệ</a>
+//             </li>
+//         </ul>
+        
+//         <form class="form-inline my-2 my-lg-0">
+//             <input class="form-control mr-sm-2" type="text" placeholder="Search" id="search_input">
+//             <i class="fa fa-search " aria-hidden="true" id="search"></i>
+//             <i class="fa fa-user m-3 " aria-hidden="true"></i> <small>Login Logout</small>
+//             <i class="fa fa-sun-o ml-2" aria-hidden="true" id="sun"></i>
+//             <i class="fa fa-moon-o ml-2 hide" aria-hidden="true" id="moon"></i>
+//         </form>
+//     </div>
+// </nav>
+
+
+// `;
+
+// class Header extends HTMLElement {
+//     constructor() {
+//         super();
+//     }
+
+//     connectedCallback() {
+       
+//         const shadowRoot = this.attachShadow({ mode: 'closed' });
+      
+//         shadowRoot.appendChild(headerTemplate.content);
+//     }
+// }
+
+// customElements.define('header-component', Header);
